@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RSM Foods</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="filterMenu('all')">All</a></li>
+            <li><a href="#" onclick="filterMenu('appetizers')">Appetizers</a></li>
+            <li><a href="#" onclick="filterMenu('main-courses')">Main Courses</a></li>
+            <li><a href="#" onclick="filterMenu('desserts')">Desserts</a></li>
+            <li><a href="#" onclick="filterMenu('beverages')">Beverages</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    <main id="menu">
+        <!-- Appetizers -->
+        <div class="menu-item appetizers">
+            <img src="appetizers.jpeg" alt="Appetizer">
+            <h2>Appetizers</h2>
+            <p>Spring Rolls</p>
+            <span>$2.99</span>
+          > <p>Chicken khabab</p>
+            <span>$5.78</span>
+        </div>
+        <!-- Main Courses -->
+        <div class="menu-item main-courses">
+            <img src="download (1).jpeg" alt="Main Course">
+            <h2>Main Course</h2>
+            <p>Chicken Biryani</p>
+            <span>$10.99</span>
+            <p>Chicken Tikka Biryani</p>
+            <span>$13.77</span>
+        </div>
+        <!-- Desserts -->
+        <div class="menu-item desserts">
+            <img src="images.jpeg" alt="Dessert">
+            <h2>Desserts</h2>
+            <p>Chocolate ice cream</p>
+            <span>$5.66</span>
+            <p>Vanilla icecream</p>
+            <span>$3.89</span>
+        </div>
+        <!-- Beverages -->
+        <div class="menu-item beverages">
+            <img src="download.jpeg" alt="Beverage">
+            <h2>Beverages</h2>
+            <p>Cocacola</p>
+            <span>$2.99</span>
+            <p>Thumbsup</p>
+            <span>$1.99</span>
+        </div>
+    </main>
+    <footer>
+        <p>Contact us at (123) 456-7890 or follow us on social media!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
